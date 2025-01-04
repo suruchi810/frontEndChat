@@ -252,7 +252,7 @@ export default function ChatContainer({ currentChat, currentUser, socket }) {
                         ))}
                         <div ref={scrollRef} />
                     </div>
-{/*                     <ChatInput handleSendMsg={handleSendMsg} /> */}
+                    <ChatInput handleSendMsg={handleSendMsg} />
                 </Container>
             )}
         </>
