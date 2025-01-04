@@ -39,9 +39,9 @@ export default function ChatContainer({ currentChat, currentUser, socket }) {
             message: msg,
         });
 
-        const msgs = [...messages];
-        msgs.push({ fromSelf: true, message: msg });
-        setMessages(msgs);
+        // const msgs = [...messages];
+        // msgs.push({ fromSelf: true, message: msg });
+        // setMessages(msgs);
 
         // Optionally fetch messages again or update the state directly
         setMessages((prevMessages) => [
